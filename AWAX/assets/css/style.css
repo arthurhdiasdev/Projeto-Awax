@@ -176,12 +176,6 @@ header{
 
 
 
-
-
-
-
-
-
 /*
 CSSS DE AREAS ESPECIFICAS
 */
@@ -195,9 +189,6 @@ CSSS DE AREAS ESPECIFICAS
     font-size: 14px;
     line-height: 23px;
 }
-    
-    
-
 .section-aboutus--right{
     width: 500px;
     text-align: center;
@@ -209,5 +200,33 @@ CSSS DE AREAS ESPECIFICAS
 
 }
 
-
+.section-services{
+    display: flex;
+}
+.section-services span{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px ;
+    border-right: 1px solid #333;
+}
+.section-services span:first-child{
+    border-left: 1px solid #333 ;
+}
+.section-services span img{
+    width: 50px;
+}
+.section-services span h4{
+    margin-top:20px ;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.section-services span p{
+    margin-top: 10px;
+    font-size: 13px;
+    color: #999;
+}
  
